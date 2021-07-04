@@ -1,3 +1,29 @@
-.ok{ 
-    color: red;
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{ 
+    font-size: 60px;
+}
+.name{ 
+    color: orange;
+}
+.link-button{
+   text-decoration: none;
+   background-image: linear-gradient(red, tomato);
+   padding: 5px;
+   border-radius: 5px;
+}
+.flex{
+display: flex;
+margin-bottom: 150px;
+background-image: url(top-banner.png);
+background-repeat: no-repeat;
+}
+.width{
+    width: 50%;
+    padding-left: 5%;
+}
+.width img{
+    width: 80%;
 }
